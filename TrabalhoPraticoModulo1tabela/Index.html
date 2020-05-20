@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <title>Trabalho prático módulo 1</title>
+  </head>
+  <script type="text/javascript" src="js/script.js"></script>
+  <body>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <span id="textoVermelho">(R) Vermelho</span>
+            </td>
+            <td>
+              <input
+                id="botaoVermelho"
+                type="range"
+                min="0"
+                max="255"
+                step="1"
+                value="0"
+                class="clsRange"
+              />
+            </td>
+            <td>
+              <input
+                id="txtVermelho"
+                type="text"
+                disabled
+                value="0"
+                class="clsTexto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span id="textoVerde">(G) Verde </span>
+            </td>
+            <td>
+              <input
+                id="botaoVerde"
+                type="range"
+                min="0"
+                max="255"
+                step="1"
+                value="0"
+                class="clsRange"
+              />
+            </td>
+            <td>
+              <input
+                id="txtVerde"
+                type="text"
+                disabled
+                value="0"
+                class="clsTexto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span id="textoAzul">(B) Azul </span>
+            </td>
+            <td>
+              <span>
+                <input
+                  id="botaoAzul"
+                  type="range"
+                  min="0"
+                  max="255"
+                  step="1"
+                  value="0"
+                  class="clsRange"
+                />
+              </span>
+            </td>
+            <td>
+              <input
+                id="txtAzul"
+                type="text"
+                disabled
+                value="0"
+                class="clsTexto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><div id="divcores"></div></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  padding: 10px;
+}
+#textoVermelho {
+  color: red;
+}
+#textoVerde {
+  color: green;
+}
+#textoAzul {
+  color: blue;
+}
+#divcores {
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+td {
+  padding: 3px;
+}
+
+.clsTexto {
+  width: 60px;
+}
+
+.clsRange {
+  width: 260px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <title>Trabalho prático módulo 1</title>
+  </head>
+  <script type="text/javascript" src="js/script.js"></script>
+  <body>
+    <form>
+      <section class="container flex">
+        <div class="item">
+          <span id="textoVermelho" class="clsCor">(R) Vermelho</span>
+        </div>
+        <div class="item">
+          <input
+            id="botaoVermelho"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+            class="clsRange"
+          />
+        </div>
+        <div class="item">
+          <input
+            id="txtVermelho"
+            type="text"
+            disabled
+            value="0"
+            class="clsTexto"
+          />
+        </div>
+      </section>
+      <section class="container flex">
+        <div class="item">
+          <span id="textoVerde" class="clsCor">(G) Verde </span>
+        </div>
+        <div class="item">
+          <input
+            id="botaoVerde"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+            class="clsRange"
+          />
+        </div>
+        <div class="item">
+          <input
+            id="txtVerde"
+            type="text"
+            disabled
+            value="0"
+            class="clsTexto"
+          />
+        </div>
+      </section>
+      <section class="container flex">
+        <div class="item">
+          <span id="textoAzul" class="clsCor">(B) Azul </span>
+        </div>
+        <div class="item">
+          <input
+            id="botaoAzul"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+            class="clsRange"
+          />
+        </div>
+        <div class="item">
+          <input id="txtAzul" type="text" disabled value="0" class="clsTexto" />
+        </div>
+      </section>
+      <section class="container flex">
+        <div id="divcores"></div>
+      </section>
+    </form>
+  </body>
+</html>
